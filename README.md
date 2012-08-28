@@ -1,11 +1,11 @@
 # TinyCircuits Tiny Peripheral 0402 LED
 # ASL1001 Rev1
 
-These are the design files for the TinyCircuits ASL2101 Rev 1 PCB.  This is a Tiny peripheral board that has an 0402 LED and resistor, along with pads to solder too.
+These are the design files for the TinyCircuits ASL1001 Rev 1 PCB.  This is a Tiny peripheral board that has an 0402 LED and resistor, along with pads to solder too.
 
 Format is in Cadsoft Eagle format - Eagle version 6.2 was used for the original design.
 
-For more infomation on this, check out the product page at Tiny-Circuits.com:  http://tiny-circuits.com/products/asl2101
+For more infomation on this, check out the product page at Tiny-Circuits.com:  http://tiny-circuits.com/products/asl1001
 
 
 
