@@ -1,5 +1,5 @@
-# TinyCircuits TinyShield Proto3 Board
-# ASL2101 Rev1
+# TinyCircuits Tiny Peripheral 0402 LED
+# ASL1001 Rev1
 
 These are the design files for the TinyCircuits ASL2101 Rev 1 PCB.  This is a Tiny peripheral board that has an 0402 LED and resistor, along with pads to solder too.
 
