@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -181,33 +181,24 @@
 <wire x1="69.85" y1="0" x2="69.85" y2="50.8" width="0.127" layer="48"/>
 <wire x1="69.85" y1="50.8" x2="0" y2="50.8" width="0.127" layer="48"/>
 <wire x1="0" y1="50.8" x2="0" y2="0" width="0.127" layer="48"/>
-<dimension x1="23.25" y1="20" x2="16.75" y2="20" x3="20" y3="26.224653125" layer="48"/>
+<dimension x1="23.25" y1="21.25" x2="16.75" y2="21.25" x3="20" y3="27.474653125" layer="48"/>
 <text x="48.111025" y="4.365003125" size="0.889" layer="48">TinyLily LED - 0402</text>
 <text x="44.986825" y="1.7714" size="0.889" layer="48">AS-PCB-ASL1001</text>
-<text x="67.3810375" y="1.6952" size="0.889" layer="48">2</text>
+<text x="67.3810375" y="1.6952" size="0.889" layer="48">3</text>
 <text x="19.54081875" y="19.118715625" size="0.762" layer="22" rot="MR0">-</text>
 <text x="21.0168625" y="20.145540625" size="0.762" layer="22" rot="MR0">+</text>
-<dimension x1="18" y1="21.25" x2="18" y2="18.75" x3="10.150421875" y3="20" layer="48"/>
-<wire x1="21.8" y1="22" x2="21.8" y2="18" width="1.5" layer="46" curve="-190"/>
+<dimension x1="16.75" y1="21.25" x2="16.75" y2="18.75" x3="8.900421875" y3="20" layer="48"/>
 <text x="40.5384" y="14.481796875" size="0.4572" layer="48" ratio="10">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
 <text x="40.5384" y="13.719796875" size="0.4572" layer="48" ratio="10">http://creativecommons.org/licenses/by-sa/3.0</text>
 <text x="40.5384" y="12.449796875" size="0.4572" layer="48" ratio="10">Original Arduino Uno Design by Team Arduino</text>
 <text x="40.5384" y="11.687796875" size="0.4572" layer="48" ratio="10">LilyPad Arduino Design by Leah Buechley and Sparkfun Electronics</text>
-<wire x1="18.2" y1="18" x2="18.2" y2="22" width="1.5" layer="46" curve="-190"/>
 <wire x1="18" y1="21.25" x2="18" y2="18.75" width="0.0254" layer="20" curve="180"/>
 <wire x1="22" y1="18.75" x2="22" y2="21.25" width="0.0254" layer="20" curve="180"/>
 <wire x1="22" y1="21.25" x2="18" y2="21.25" width="0.0254" layer="20"/>
-<wire x1="16.75" y1="21.25" x2="18" y2="21.25" width="0.0254" layer="20"/>
 <wire x1="18" y1="18.75" x2="22" y2="18.75" width="0.0254" layer="20"/>
-<wire x1="18" y1="21.25" x2="18" y2="18.75" width="0.0254" layer="108" curve="180"/>
-<wire x1="22" y1="18.75" x2="22" y2="21.25" width="0.0254" layer="108" curve="180"/>
-<wire x1="22" y1="21.25" x2="18" y2="21.25" width="0.0254" layer="108"/>
-<wire x1="18" y1="18.75" x2="22" y2="18.75" width="0.0254" layer="108"/>
 <text x="40.5384" y="10.976596875" size="0.4572" layer="48" ratio="10">TinyDuino, TinyLily and TinyShield Designs by TinyCircuits</text>
-<text x="20" y="20.7" size="0.5" layer="20" align="bottom-center">^  V-SCORE  ^</text>
-<wire x1="16.75" y1="18.75" x2="23.25" y2="18.75" width="0.0254" layer="20"/>
-<wire x1="22" y1="21.25" x2="23.25" y2="21.25" width="0.0254" layer="20"/>
-<text x="20" y="19.3" size="0.5" layer="20" rot="SR180" align="bottom-center">^  V-SCORE  ^</text>
+<wire x1="15" y1="21.25" x2="15" y2="18.75" width="0.0254" layer="20"/>
+<wire x1="25" y1="21.25" x2="25" y2="18.75" width="0.0254" layer="20"/>
 </plain>
 <libraries>
 <library name="tinycircuits">
@@ -278,7 +269,7 @@
 <text x="0.55118125" y="5.012690625" size="0.635" layer="48">TITLE:</text>
 <text x="18.25498125" y="0.415290625" size="0.635" layer="48">Sheet:</text>
 <text x="22.31898125" y="2.879090625" size="0.635" layer="48">REV:</text>
-<text x="9.79678125" y="7.001003125" size="0.635" layer="48">http://www.Tiny-Circuits.com</text>
+<text x="9.79678125" y="7.001003125" size="0.635" layer="48">http://www.TinyCircuits.com</text>
 <rectangle x1="1.2214875" y1="6.306059375" x2="1.28091875" y2="6.307584375" layer="48"/>
 <rectangle x1="1.2214875" y1="6.307584375" x2="1.28091875" y2="6.309103125" layer="48"/>
 <rectangle x1="1.2214875" y1="6.30910625" x2="1.28091875" y2="6.31063125" layer="48"/>
@@ -10340,23 +10331,23 @@
 <text x="21.60778125" y="0.415290625" size="0.635" layer="48">1/1</text>
 </package>
 <package name="0402_LED">
-<wire x1="-0.958" y1="0.3104" x2="0.9507" y2="0.3104" width="0.127" layer="51"/>
-<wire x1="0.9507" y1="0.3104" x2="0.9507" y2="-0.3132" width="0.127" layer="51"/>
-<wire x1="0.9507" y1="-0.3132" x2="-0.958" y2="-0.3132" width="0.127" layer="51"/>
-<wire x1="-0.958" y1="-0.3132" x2="-0.958" y2="0.3104" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.35" x2="1" y2="0.35" width="0.127" layer="51"/>
+<wire x1="1" y1="0.35" x2="1" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.35" x2="-1" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.35" x2="-1" y2="0.35" width="0.127" layer="51"/>
 <smd name="1" x="-0.55" y="0" dx="0.7" dy="0.5" layer="1"/>
 <smd name="2" x="0.55" y="0" dx="0.7" dy="0.5" layer="1"/>
-<text x="0" y="0" size="0.3048" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.5" layer="25" align="center">&gt;NAME</text>
 </package>
 <package name="0402">
 <description>Multilayer SMD</description>
-<wire x1="-0.998" y1="0.3504" x2="0.9907" y2="0.3504" width="0.127" layer="51"/>
-<wire x1="0.9907" y1="0.3504" x2="0.9907" y2="-0.3432" width="0.127" layer="51"/>
-<wire x1="0.9907" y1="-0.3432" x2="-0.998" y2="-0.3432" width="0.127" layer="51"/>
-<wire x1="-0.998" y1="-0.3432" x2="-0.998" y2="0.3504" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.35" x2="1" y2="0.35" width="0.127" layer="51"/>
+<wire x1="1" y1="0.35" x2="1" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.35" x2="-1" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.35" x2="-1" y2="0.35" width="0.127" layer="51"/>
 <smd name="1" x="-0.6" y="0" dx="0.65" dy="0.55" layer="1" cream="no"/>
 <smd name="2" x="0.6" y="0" dx="0.65" dy="0.55" layer="1" cream="no"/>
-<text x="0" y="0" size="0.3048" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.5" layer="25" align="center">&gt;NAME</text>
 <rectangle x1="-0.925" y1="-0.275" x2="-0.275" y2="0.275" layer="31"/>
 <rectangle x1="0.275" y1="-0.275" x2="0.925" y2="0.275" layer="31"/>
 </package>

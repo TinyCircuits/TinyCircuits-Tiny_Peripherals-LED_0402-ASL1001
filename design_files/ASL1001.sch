@@ -182,23 +182,23 @@
 </polygon>
 </package>
 <package name="0402_LED">
-<wire x1="-0.958" y1="0.3104" x2="0.9507" y2="0.3104" width="0.127" layer="51"/>
-<wire x1="0.9507" y1="0.3104" x2="0.9507" y2="-0.3132" width="0.127" layer="51"/>
-<wire x1="0.9507" y1="-0.3132" x2="-0.958" y2="-0.3132" width="0.127" layer="51"/>
-<wire x1="-0.958" y1="-0.3132" x2="-0.958" y2="0.3104" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.35" x2="1" y2="0.35" width="0.127" layer="51"/>
+<wire x1="1" y1="0.35" x2="1" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.35" x2="-1" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.35" x2="-1" y2="0.35" width="0.127" layer="51"/>
 <smd name="1" x="-0.55" y="0" dx="0.7" dy="0.5" layer="1"/>
 <smd name="2" x="0.55" y="0" dx="0.7" dy="0.5" layer="1"/>
-<text x="0" y="0" size="0.3048" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.5" layer="25" align="center">&gt;NAME</text>
 </package>
 <package name="0402">
 <description>Multilayer SMD</description>
-<wire x1="-0.998" y1="0.3504" x2="0.9907" y2="0.3504" width="0.127" layer="51"/>
-<wire x1="0.9907" y1="0.3504" x2="0.9907" y2="-0.3432" width="0.127" layer="51"/>
-<wire x1="0.9907" y1="-0.3432" x2="-0.998" y2="-0.3432" width="0.127" layer="51"/>
-<wire x1="-0.998" y1="-0.3432" x2="-0.998" y2="0.3504" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.35" x2="1" y2="0.35" width="0.127" layer="51"/>
+<wire x1="1" y1="0.35" x2="1" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.35" x2="-1" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.35" x2="-1" y2="0.35" width="0.127" layer="51"/>
 <smd name="1" x="-0.6" y="0" dx="0.65" dy="0.55" layer="1" cream="no"/>
 <smd name="2" x="0.6" y="0" dx="0.65" dy="0.55" layer="1" cream="no"/>
-<text x="0" y="0" size="0.3048" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.5" layer="25" align="center">&gt;NAME</text>
 <rectangle x1="-0.925" y1="-0.275" x2="-0.275" y2="0.275" layer="31"/>
 <rectangle x1="0.275" y1="-0.275" x2="0.925" y2="0.275" layer="31"/>
 </package>
@@ -331,7 +331,7 @@
 <text x="88.921590625" y="11.402059375" size="2.54" layer="94" font="vector">REV:</text>
 <text x="1.291590625" y="19.022059375" size="2.54" layer="94" font="vector">TITLE:</text>
 <text x="1.291590625" y="11.402059375" size="2.54" layer="94" font="vector">Document Number:</text>
-<text x="42.642790625" y="27.302459375" size="2.286" layer="94" font="vector">http://www.Tiny-Circuits.com</text>
+<text x="42.642790625" y="27.302459375" size="2.286" layer="94" font="vector">http://www.TinyCircuits.com</text>
 <rectangle x1="3.883025" y1="24.876125" x2="4.130675" y2="24.882475" layer="94"/>
 <rectangle x1="3.883025" y1="24.882475" x2="4.130675" y2="24.888825" layer="94"/>
 <rectangle x1="3.883025" y1="24.888825" x2="4.130675" y2="24.895175" layer="94"/>
@@ -10565,7 +10565,7 @@
 <plain>
 <text x="340.868" y="17.272" size="3.556" layer="94" font="vector">TinyLily LED - 0402</text>
 <text x="327.152" y="6.35" size="3.556" layer="94" font="vector">AS-SCH-ASL1001</text>
-<text x="416.56" y="6.858" size="3.556" layer="94" font="vector">2</text>
+<text x="416.56" y="6.858" size="3.556" layer="94" font="vector">3</text>
 <text x="45.72" y="35.56" size="3.048" layer="91">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
 <text x="45.72" y="30.48" size="3.048" layer="91">http://creativecommons.org/licenses/by-sa/3.0</text>
 <text x="45.72" y="20.32" size="3.048" layer="91">Original Arduino Uno Design by Team Arduino</text>
